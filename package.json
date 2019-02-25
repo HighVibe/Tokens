@@ -1,7 +1,7 @@
 {
   "name": "HighVibe",
   "version": "0.1.0",
-  "description": "Public sale and token smart contracts for HighVibe",
+  "description": "HighVibe token smart contract",
   "main": "truffle.js",
   "directories": {
     "test": "test"
@@ -12,16 +12,18 @@
   "author": "Rui Maximo (rui@highvibe.network)",
   "license": "MIT",
   "devDependencies": {
-    "@babel/polyfill": "^7.0.0",
     "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-stage-2": "^6.24.1",
     "babel-preset-stage-3": "^6.17.0",
     "babel-register": "^6.23.0",
+    "bignumber.js": "^8.1.1",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "chai-bignumber": "^2.0.2",
-    "truffle-assertions": "^0.6.1"
+    "openzeppelin-solidity": "^2.1.2",
+    "truffle-assertions": "^0.6.3"
   },
   "babel": {
     "presets": [
@@ -31,7 +33,7 @@
     ]
   },
   "dependencies": {
-    "solc": "^0.5.2",
-    "truffle": "^4.1.14"
+    "solc": "^0.5.3",
+    "truffle": "^4.1.15"
   }
 }
